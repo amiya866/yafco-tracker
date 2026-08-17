@@ -1,0 +1,2086 @@
+{
+  "fetched_at": "2026-08-17T15:07:00+08:00",
+  "lookback_days": 45,
+  "method": "公开列表标题扫描；付费正文不抓取，入 news.json 前必须交叉核验",
+  "errors": {},
+  "items": [
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-17",
+      "title": "8月17日氧化铝早评：南北价差走阔，海外成交活跃，出口可能性逐渐增强",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608172560500.html",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝专题调研/铝土矿氧化铝专题调研",
+      "date": "2026-08-17",
+      "title": "[日评] 铝晨报-市场情绪修复 短期铝价或震荡偏强(20260817）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=138&id=306382",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-17",
+      "title": "8月17日电解铝早评：产业矛盾相对温和 宏观情绪继续主导铝价",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608172559900.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-17",
+      "title": "8月17日广东有色华南现货市场行情",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608172565100.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-17",
+      "title": "8月17日广东有色华东现货市场行情",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608172565000.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-17",
+      "title": "8月17日主要铝土矿进口国海运费",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608172565900.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-17",
+      "title": "8月17日中国现货铝土矿市场价格",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608172565500.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-17",
+      "title": "8月17日中国现货氧化铝市场价格",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608172565600.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-17",
+      "title": "8月17日中国宏桥集团A00铝锭销售报价",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608172565400.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-15",
+      "title": "印尼将于2027年初推出矿产与大宗商品交易所",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608152559800.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-14",
+      "title": "海德鲁位于巴西的Alunorte氧化铝厂已开始提高氧化铝产量",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608142544000.html",
+      "high_signal": true
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-14",
+      "title": "氧化铝进口成本与现货持续倒挂，进出口均存一定阻碍",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608142551200.html",
+      "high_signal": true
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-14",
+      "title": "周评：国产矿山建设有新进展 进口矿价区间博弈",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608142555100.html",
+      "high_signal": true
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-14",
+      "title": "8月14日氧化铝早评：海外成交价保持小幅上行，巴西减产氧化铝企业开始提升产量，国产矿山建设进展利好相应企业",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608142544100.html",
+      "high_signal": true
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "青铜峡铝业宁东分公司电解铝生产动态",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142552300.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "青铜峡分公司满产运行",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142552400.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "霍煤鸿骏铝业电解铝生产动态",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142551600.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "阿坝铝厂保持满产运行",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142553400.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "锦联铝材保持满产运行",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142551700.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "蒙泰集团电解铝生产动态",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142552200.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "白音华铝电满产运行",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142551500.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "登高铝业电解铝生产动态",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142553200.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-14",
+      "title": "牙买加成交3万吨氧化铝",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608142554500.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "深圳某贸易公司出售铝锭200吨",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142554000.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "新疆神火满产运行",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142552700.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "新疆其亚电解铝生产动态",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142553000.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "巩义某贸易商出售铝锭180吨",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142554100.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "宁波某贸易公司出售铝锭200吨",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142553900.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "宁夏宁创（原锦宁铝镁）电解铝生产平稳",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142552500.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "周评：海外供应预期扰动 铝价冲高回落",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142551400.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-14",
+      "title": "周评：氧化铝维持下跌趋势，南方市场跌幅有所扩大",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608142553700.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-14",
+      "title": "印尼成交3万氧化铝",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608142545000.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "华仁新材料电解铝生产动态",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142553100.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "包头铝业电解铝生产动态",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142552000.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "创源金属电解铝生产动态",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142552100.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "元豪铝业满产运行",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142553300.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "云南神火满产运行",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142552600.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "云南其亚保持满产运行",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142552900.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "东方希望固阳（包头新恒丰）电解铝生产动态",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142551800.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "东方希望包头铝业电解铝生产动态",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142551900.html",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝专题调研/铝土矿氧化铝专题调研",
+      "date": "2026-08-14",
+      "title": "[日评] 铝晨报-市场高位获利了结压力集中释放 铝价或偏弱运行(20260814）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=138&id=306188",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝专题调研/铝土矿氧化铝专题调研",
+      "date": "2026-08-14",
+      "title": "[日评] 电解铝：现货铝价宽幅走跌 下游入市积极性一般（20260814）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=138&id=306345",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "8月14日电解铝早评：供应支撑预期弱化 低库存基础支撑仍存",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142544200.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-14",
+      "title": "8月14日氧化铝与电解铝周度平衡系数走势图",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608142551300.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "8月14日广东有色华南现货市场行情",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142550300.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "8月14日广东有色华东现货市场行情",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142550400.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-14",
+      "title": "8月14日主要铝土矿进口国海运费",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608142545300.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "8月14日中铝股份公司A00铝锭产品销售报价",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142560800.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-14",
+      "title": "8月14日中国现货铝土矿市场价格",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608142550800.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-14",
+      "title": "8月14日中国现货氧化铝市场价格",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608142550500.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-14",
+      "title": "8月14日中国宏桥集团A00铝锭销售报价",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608142550900.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-14",
+      "title": "8月13日甘肃某铝厂氧化铝招标结果",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608142545200.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-14",
+      "title": "8月13-14日海外氧化铝成交汇总",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608142555400.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-13",
+      "title": "三门峡市湖滨区关于非煤矿山“三个一批”公示名单",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608132538000.html",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝专题调研/铝土矿氧化铝专题调研/电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": "2026-08-13",
+      "title": "[独家调研] 阿联酋Al Taweelah电解铝厂复产227台电解槽",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=54&id=306118",
+      "high_signal": true
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-13",
+      "title": "8月13日电解铝早评：EGA公布复产计划 供应担忧有所缓解",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608132528400.html",
+      "high_signal": true
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-13",
+      "title": "8月13日氧化铝早评：压减产初露苗头，运行产能仍不断接近阶段高位；澳铝厂获财政支持化解停产危机",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608132528300.html",
+      "high_signal": true
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-13",
+      "title": "靖西天桂铝业矿区采选项目工程完成多个重要节点 三季度攻坚提质提速",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608132537200.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-13",
+      "title": "盘中临近24500关口 外盘突袭 短期压力位凸显",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608132529300.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-13",
+      "title": "澳洲成交3万吨氧化铝",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608132542800.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-13",
+      "title": "淡季库存持续去化 如何理解及后市推演",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608132543000.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-13",
+      "title": "洛阳某贸易公司出售铝锭200吨",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608132538300.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-13",
+      "title": "杭州某贸易公司出售铝锭120吨",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608132538200.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-13",
+      "title": "佛山某贸易公司出售铝锭150吨",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608132538400.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-13",
+      "title": "云南某铝厂招标采购0.5万吨氧化铝",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608132528900.html",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝专题调研/铝土矿氧化铝专题调研",
+      "date": "2026-08-13",
+      "title": "[日评] 铝晨报-续涨动力不足 短期铝价或区间整理(20260813）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=138&id=305896",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝专题调研/铝土矿氧化铝专题调研",
+      "date": "2026-08-13",
+      "title": "[日评] 电解铝：期铝震荡走弱 现货市场交投分化（20260813）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=138&id=306184",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝专题调研/铝土矿氧化铝专题调研/电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": "2026-08-13",
+      "title": "[库存] 电解铝：国内电解铝社会库存统计（20260813）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=52&id=306043",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝专题调研/铝土矿氧化铝专题调研",
+      "date": "2026-08-13",
+      "title": "[周评] 电解铝周评：宏观支撑叠加库存新低 伦铝冲高后高位回撤（20260813）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=139&id=306104",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-13",
+      "title": "8月13日广东有色华南现货市场行情",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608132534600.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-13",
+      "title": "8月13日广东有色华东现货市场行情",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608132534700.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-13",
+      "title": "8月13日全国氧化铝库存数据汇总",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608132530300.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-13",
+      "title": "8月13日主要铝土矿进口国海运费",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608132529700.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-13",
+      "title": "8月13日中铝股份公司A00铝锭产品销售报价",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608132537300.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-13",
+      "title": "8月13日中国现货铝土矿市场价格",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608132535300.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-13",
+      "title": "8月13日中国现货氧化铝市场价格",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608132535000.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-13",
+      "title": "8月13日中国宏桥集团A00铝锭销售报价",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608132535400.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-12",
+      "title": "牙买加铝土矿公司（JBM）正与加纳方面就恢复两国铝土矿及氧化铝贸易展开讨论",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608122513000.html",
+      "high_signal": true
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-12",
+      "title": "巴西阿鲁诺特氧化铝厂停产一半影响分析",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608122514900.html",
+      "high_signal": true
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-12",
+      "title": "几内亚铝土矿发运回升",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608122524000.html",
+      "high_signal": true
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-12",
+      "title": "8月12日氧化铝早评：巴西氧化铝减产扰动海外供应，供应波动周期评估暂为阶段特征；氧化铝异地焙烧项目加速推进",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608122512900.html",
+      "high_signal": true
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-12",
+      "title": "郑州某贸易商出售铝锭200吨",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608122521000.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-12",
+      "title": "广州某贸易公司出售铝锭220吨",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608122521100.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-12",
+      "title": "嘉唐铝业二期项目建设已进入关键期",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608122513100.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-12",
+      "title": "上海某贸易商出售铝锭150吨",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608122520900.html",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝专题调研/铝土矿氧化铝专题调研",
+      "date": "2026-08-12",
+      "title": "[日评] 铝晨报-低库存与供应约束共振 短期铝价或偏强震荡(20260812）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=138&id=305673",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝专题调研/铝土矿氧化铝专题调研",
+      "date": "2026-08-12",
+      "title": "[日评] 电解铝：现货铝价涨势扩大 华东成交略有好转（20260812）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=138&id=305822",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-12",
+      "title": "8月12日电解铝早评：供应扰动支撑仍存 沪铝继续增仓上探",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608122513200.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-12",
+      "title": "8月12日广东有色华南现货市场行情",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608122519400.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-12",
+      "title": "8月12日广东有色华东现货市场行情",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608122519500.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-12",
+      "title": "8月12日主要铝土矿进口国海运费",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608122513900.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-12",
+      "title": "8月12日中铝股份公司A00铝锭产品销售报价",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608122522900.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-12",
+      "title": "8月12日中国现货铝土矿市场价格",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608122519700.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-12",
+      "title": "8月12日中国现货氧化铝市场价格",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608122519800.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "电解铝",
+      "date": "2026-08-12",
+      "title": "8月12日中国宏桥集团A00铝锭销售报价",
+      "kind": "电解铝",
+      "url": "https://www.aladdiny.com/news/article/202608122520100.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-11",
+      "title": "贵州播州213矿厂铝土矿启动扩能招标 产能升至80万吨/年 总投资超1700万元",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608112508000.html",
+      "high_signal": true
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-11",
+      "title": "广西地矿局赴信发铝电调研 靖西沉积型铝土矿勘探项目正式启动",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608112508100.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-11",
+      "title": "山西某氧化铝厂已实现投料",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608112497700.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-11",
+      "title": "云南某铝厂采购0.5万吨氧化铝",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608112499500.html",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝专题调研/铝土矿氧化铝专题调研",
+      "date": "2026-08-11",
+      "title": "[日评] 铝晨报-霍尔木兹海峡持续胶着 短期铝价或稳中偏强调整(20260811）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=138&id=305409",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝专题调研/铝土矿氧化铝专题调研",
+      "date": "2026-08-11",
+      "title": "[日评] 电解铝：期铝高位震荡 现货市场交投分化（20260811）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=138&id=305583",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-11",
+      "title": "8月11日氧化铝早评：国产矿开采约束严格采量相对有限，海外铝土矿资源控制和争夺持续升温，供应压力仍是当前主要矛盾",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608112497400.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-11",
+      "title": "8月11日主要铝土矿进口国海运费",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608112498700.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-11",
+      "title": "8月11日中国现货铝土矿市场价格",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608112504100.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-11",
+      "title": "8月11日中国现货氧化铝市场价格",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608112504200.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-10",
+      "title": "8月10日氧化铝早评：供应增加价格稳定，几矿应用保持增加态势；压减产初露苗头",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608102481100.html",
+      "high_signal": true
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-10",
+      "title": "云南某铝厂采购0.5万吨广西氧化铝",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608102488300.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-10",
+      "title": "BALCO经激烈竞价，以175%创纪录溢价拿下奥里萨邦卡拉帕特铝土矿区块",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608102493000.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-10",
+      "title": "8月10日新疆某电解铝企业氧化铝招标结果",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608102490800.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-10",
+      "title": "8月10日主要铝土矿进口国海运费",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608102482900.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-10",
+      "title": "8月10日中国现货铝土矿市场价格",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608102489100.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-10",
+      "title": "8月10日中国现货氧化铝市场价格",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608102488100.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-08",
+      "title": "海外成交3万吨氧化铝",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608082480500.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-08",
+      "title": "几内亚选定嘉能可作为宁巴矿业（Nimba Mining）铝土矿承购方",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608082480300.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-07",
+      "title": "澳洲氧化铝进口成本继续上升",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608072471100.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-07",
+      "title": "国产矿供应收缩延续，进口矿成本支撑与需求压力博弈",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608072474600.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-07",
+      "title": "周评：氧化铝现货小幅阴跌局势保持，期货波动频繁",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608072471000.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-07",
+      "title": "几内亚正式签署宁巴矿业公司（NMC）基础矿业协议",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608072463200.html",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝专题调研/铝土矿氧化铝专题调研/电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": "2026-08-07",
+      "title": "[库存] 电解铝：电解铝企业厂内铝锭库存统计（2026.8.7-2026.8.13）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=52&id=306042",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-07",
+      "title": "8月7日氧化铝早评：库存高位压制价格反弹，南北流通重塑区域平衡，非铝行业提供稳定总量需求",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608072463100.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-07",
+      "title": "8月7日氧化铝与电解铝周度平衡系数走势图",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608072471300.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-07",
+      "title": "8月7日新疆某铝厂氧化铝招标结果",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608072478000.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-07",
+      "title": "8月7日主要铝土矿进口国海运费",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608072464200.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-07",
+      "title": "8月7日中国现货铝土矿市场价格",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608072470200.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-07",
+      "title": "8月7日中国现货氧化铝市场价格",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608072469900.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-06",
+      "title": "几内亚铝土矿发运恢复缓慢",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608062448900.html",
+      "high_signal": true
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-06",
+      "title": "西澳成交3万吨氧化铝，离岸价格346美元/吨",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608062462300.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-06",
+      "title": "几内亚银谷国际铝土矿项目加速推进",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608062462200.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-06",
+      "title": "几内亚GBG港口工程项目全面竣工",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608062447700.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-06",
+      "title": "东澳成交3万吨氧化铝",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608062447200.html",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝专题调研/铝土矿氧化铝专题调研/电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": "2026-08-06",
+      "title": "[库存] 电解铝：国内电解铝社会库存统计（20260806）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=52&id=304809",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-06",
+      "title": "8月6日氧化铝早评：氧化铝成本保持上移态势，国内铝矿开采规范严格，氛围推升盘面价格",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608062447300.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-06",
+      "title": "8月6日全国氧化铝库存数据汇总",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608062449900.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-06",
+      "title": "8月6日主要铝土矿进口国海运费",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608062454900.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-06",
+      "title": "8月6日中国现货铝土矿市场价格",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608062455900.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-06",
+      "title": "8月6日中国现货氧化铝市场价格",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608062455600.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-05",
+      "title": "阿拉丁2026年7月氧化铝产能分析",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608052441300.html",
+      "high_signal": true
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-05",
+      "title": "洛阳香江万基铝业氧化铝生产状况",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608052442700.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-05",
+      "title": "广西信发氧化铝生产情况",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608052442600.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-05",
+      "title": "国电投遵义氧化铝企业生产动态",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608052442900.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-05",
+      "title": "全国氧化铝开工及生产情况分析（2026年7月）",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608052441500.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-05",
+      "title": "云南某电解铝企业采购0.5万吨氧化铝",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608052456900.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-05",
+      "title": "九龙万博氧化铝生产运行动态",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608052442800.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-05",
+      "title": "8月5日主要铝土矿进口国海运费",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608052434200.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-05",
+      "title": "8月5日中国现货铝土矿市场价格",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608052438500.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-05",
+      "title": "2026年7月铝土矿主要港口库存",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608052441800.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "氧化铝",
+      "date": "2026-08-05",
+      "title": "2026年7月份氧化铝行业重点新闻汇总",
+      "kind": "氧化铝",
+      "url": "https://www.aladdiny.com/news/article/202608052441900.html",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝专题调研/铝土矿氧化铝专题调研/电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": "2026-08-04",
+      "title": "[独家调研] 月度汇总：2026年电解铝企业增减产情况统计（截至20260731）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=54&id=304117",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝专题调研/铝土矿氧化铝专题调研/电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": "2026-08-04",
+      "title": "[产能产量] 国内电解铝分省份产能产量（202607）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=50&id=304119",
+      "high_signal": true
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-04",
+      "title": "月评：进口矿价尚未出现趋势性变化 仍在多重因素制约下小幅震荡",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608042427300.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-04",
+      "title": "几内亚矿价窄幅震荡的格局将延续？",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608042428100.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-04",
+      "title": "8月4日主要铝土矿进口国海运费",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608042418300.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-04",
+      "title": "8月4日中国现货铝土矿市场价格",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608042424000.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-03",
+      "title": "8月3日主要铝土矿进口国海运费",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608032402700.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-03",
+      "title": "8月3日中国现货铝土矿市场价格",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608032408200.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-03",
+      "title": "2026年7月铝土矿均价",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608032402500.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-08-01",
+      "title": "Metro Mining CEO亮相阿拉丁铝业峰会，探索高石英含量澳矿低成本利用新路径",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202608012400000.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-07-31",
+      "title": "国产矿供应恢复缓慢，进口矿成本支撑仍存",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202607312393800.html",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝专题调研/铝土矿氧化铝专题调研/电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": "2026-07-31",
+      "title": "[库存] 电解铝：电解铝企业厂内铝锭库存统计（2026.7.31-2026.8.6）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=52&id=304808",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝专题调研/铝土矿氧化铝专题调研",
+      "date": "2026-07-31",
+      "title": "[交通运输] 2026年6月中国汽车用铝量监测",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=80&id=303818",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-07-31",
+      "title": "7月31日主要铝土矿进口国海运费",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202607312383900.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-07-31",
+      "title": "7月31日中国现货铝土矿市场价格",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202607312389000.html",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝专题调研/铝土矿氧化铝专题调研/电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": "2026-07-30",
+      "title": "[库存] 电解铝：国内电解铝社会库存统计（20260730）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=52&id=304806",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-07-30",
+      "title": "7月30日主要铝土矿进口国海运费",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202607302368200.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-07-30",
+      "title": "7月30日中国现货铝土矿市场价格",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202607302373900.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-07-29",
+      "title": "A2MP拟收购Canyon Resources，Minim-Martap铝土矿项目开发方案或调整",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202607292388200.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-07-29",
+      "title": "7月29日主要铝土矿进口国海运费",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202607292353200.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-07-29",
+      "title": "7月29日中国现货铝土矿市场价格",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202607292359900.html",
+      "high_signal": false
+    },
+    {
+      "source": "阿拉丁(ALD)",
+      "channel": "铝土矿",
+      "date": "2026-07-28",
+      "title": "7月28日中国现货铝土矿市场价格",
+      "kind": "铝土矿",
+      "url": "https://www.aladdiny.com/news/article/202607282342500.html",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝专题调研/铝土矿氧化铝专题调研/电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": "2026-07-24",
+      "title": "[库存] 电解铝：电解铝企业厂内铝锭库存统计（2026.7.24-2026.7.30）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=52&id=303391",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝专题调研/铝土矿氧化铝专题调研/电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": "2026-07-23",
+      "title": "[库存] 电解铝：国内电解铝社会库存统计（20260723）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=52&id=302186",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": null,
+      "title": "霍煤鸿骏新产能投产完毕",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=54&id=298096",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": null,
+      "title": "阿联酋Al Taweelah电解铝厂复产",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=54&id=298453",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "阿联酋Al Taweelah氧化铝宣布复产",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=290&id=299888",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": null,
+      "title": "越南陈红泉冶金公司多农电解铝项目电解槽通电",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=54&id=299886",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "爱择调研：贵州某氧化铝企业复产进度",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=290&id=289064",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "爱择调研：贵州一氧化铝企业焙烧炉检修",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=290&id=298428",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "爱择调研：贵州一氧化铝企业焙烧炉检修",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=290&id=290382",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "爱择调研：广西一氧化铝企业焙烧炉检修",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=290&id=303217",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": null,
+      "title": "月度汇总：2026年电解铝企业增减产情况统计（截至20260701）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=54&id=298093",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": null,
+      "title": "月度汇总：2026年电解铝企业增减产情况统计（截至20260531）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=54&id=292910",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": null,
+      "title": "新疆某电解铝企业新产能通电",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=54&id=291461",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "巴西Alunorte氧化铝厂削减50%产能",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=290&id=305606",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": null,
+      "title": "国内电解铝分省份产能产量（202606）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=50&id=298100",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": null,
+      "title": "国内电解铝分省份产能产量（202605）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=50&id=292920",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": null,
+      "title": "国内电解铝分省份产能产量（202604）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=50&id=288210",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": null,
+      "title": "国内电解铝分省份产能产量（202603）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=50&id=283343",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": null,
+      "title": "国内电解铝分省份产能产量（202602）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=50&id=277259",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": null,
+      "title": "国内电解铝分省份产能产量（202601）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=50&id=273442",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": null,
+      "title": "国内电解铝分省份产能产量（202512）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=50&id=268641",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": null,
+      "title": "国内电解铝分省份产能产量（202511）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=50&id=262753",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": null,
+      "title": "国内电解铝分省份产能产量（202510）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=50&id=257870",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": null,
+      "title": "印度尼西亚先锋电解铝厂6月16日通电",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=54&id=296054",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "中国氧化铝产能产量统计（202607）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=288&id=305043",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "中国氧化铝产能产量统计（202606）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=288&id=300333",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "中国氧化铝产能产量统计（202605）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=288&id=292931",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "中国氧化铝产能产量统计（202604）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=288&id=292094",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "中国氧化铝产能产量统计（202603）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=288&id=284084",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "中国氧化铝产能产量统计（202602）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=288&id=278076",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "中国氧化铝产能产量统计（202601）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=288&id=274030",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "中国氧化铝产能产量统计（202512）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=288&id=268723",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "中国氧化铝产能产量统计（202511）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=288&id=263918",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "中国氧化铝产能产量统计（202510）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=288&id=258606",
+      "high_signal": true
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "铝土矿：国内各主要港口铝土矿现货库存统计（2026.8.6-2026.8.12）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=289&id=306029",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "铝土矿：国内各主要港口铝土矿现货库存统计（2026.7.30-2026.8.5）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=289&id=304688",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "铝土矿：国内各主要港口铝土矿到货量统计（2026.8.6-2026.8.12）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=292&id=306028",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "铝土矿：国内各主要港口铝土矿到货量统计（2026.7.9-2026.7.15）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=292&id=300802",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "铝土矿：国内各主要港口铝土矿到货量统计（2026.7.30-2026.8.5）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=292&id=304687",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "铝土矿：国内各主要港口铝土矿到货量统计（2026.7.23-2026.7.29）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=292&id=303357",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "铝土矿：国内各主要港口铝土矿到货量统计（2026.7.2-2026.7.8）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=292&id=299621",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "铝土矿：国内各主要港口铝土矿到货量统计（2026.7.16-2026.7.22）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=292&id=302064",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "铝土矿：国内各主要港口铝土矿到货量统计（2026.6.4-2026.6.10）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=292&id=294683",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "铝土矿：国内各主要港口铝土矿到货量统计（2026.6.24-2026.7.1）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=292&id=298270",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "铝土矿：国内各主要港口铝土矿到货量统计（2026.6.18-2026.6.24）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=292&id=296985",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "铝土矿：国内各主要港口铝土矿到货量统计（2026.6.11-2026.6.17）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=292&id=295953",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": null,
+      "title": "电解铝：电解铝企业厂内铝锭库存统计（2026.7.17-2026.7.23）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=52&id=302185",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": null,
+      "title": "电解铝：电解铝企业厂内铝锭库存统计（2026.7.10-2026.7.16）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=52&id=300804",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": null,
+      "title": "电解铝：国内电解铝社会库存统计（20260716）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=52&id=300797",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "爱择调研：几内亚矿石长单价格下调",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=290&id=294301",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "爱择调研：几内亚矿石长单价格上调",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=290&id=303543",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "爱择调研：几内亚矿石长单价格上调",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=290&id=298681",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "氧化铝：电解铝企业氧化铝原料库存统计（2026.8.7-2026.8.13）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=289&id=306059",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "氧化铝：电解铝企业氧化铝原料库存统计（2026.7.31-2026.8.6）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=289&id=304826",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "氧化铝：电解铝企业氧化铝原料库存统计（2026.7.24-2026.7.30）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=289&id=303508",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "氧化铝：氧化铝企业厂内现货库存统计（2026.8.7-2026.8.13）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=289&id=306062",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "氧化铝：氧化铝企业厂内现货库存统计（2026.7.31-2026.8.6）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=289&id=304829",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "氧化铝：氧化铝企业厂内现货库存统计（2026.7.24-2026.7.30）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=289&id=303509",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "氧化铝：国内各主要港口氧化铝现货库存统计（2026.8.7-2026.8.13）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=289&id=306058",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "氧化铝：国内各主要港口氧化铝现货库存统计（2026.7.31-2026.8.6）",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=289&id=304819",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "印度尼西亚某氧化铝企业再度压产",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=290&id=294167",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "电解铝独家调研/电解铝产能产量/电解铝库存",
+      "date": null,
+      "title": "加拿大Arvida电解铝旧产线已经关闭",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=54&id=301140",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "2026年8月7日进口氧化铝海运费价格",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=291&id=305015",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "2026年8月6日进口氧化铝海运费价格",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=291&id=305014",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "2026年8月5日进口氧化铝海运费价格",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=291&id=304494",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "2026年8月4日进口氧化铝海运费价格",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=291&id=304493",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "2026年8月17日进口氧化铝海运费价格",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=291&id=306484",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "2026年8月14日进口氧化铝海运费价格",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=291&id=306290",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "2026年8月13日进口氧化铝海运费价格",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=291&id=306289",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "2026年8月12日进口氧化铝海运费价格",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=291&id=305826",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "2026年8月11日进口氧化铝海运费价格",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=291&id=305475",
+      "high_signal": false
+    },
+    {
+      "source": "爱择咨询",
+      "channel": "铝土矿氧化铝独家调研",
+      "date": null,
+      "title": "2026年8月10日进口氧化铝海运费价格",
+      "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=291&id=305474",
+      "high_signal": false
+    }
+  ]
+}
