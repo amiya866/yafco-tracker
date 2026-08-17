@@ -1,0 +1,30 @@
+{
+  "company": "Nornickel",
+  "published": true,
+  "report": "1H2026 production results, published 2026-07-27",
+  "data": {
+    "nickel": {
+      "2026Q1": 41746,
+      "2026Q2": 43282,
+      "H1": 85028
+    },
+    "copper_total": {
+      "2026Q1": 98679,
+      "2026Q2": 104394,
+      "H1": 203073
+    },
+    "copper_bystrinsky": {
+      "2026Q1": 18545,
+      "2026Q2": 17787,
+      "H1": 36332
+    }
+  },
+  "guidance": "FY2026 guidance reiterated (from company's own feedstock): Nickel 193-203 kt; Copper ex-Zabaykalsky 336-356 kt; Zabaykalsky Division copper in concentrate 69-73 kt; Palladium 2,415-2,465 koz; Platinum 616-636 koz",
+  "notes": "All figures exact from official PDF table 'Norilsk Nickel Group Saleable Metals Production' (unit: tonnes). Nickel Q2 +4% q-o-q, H1 -2% y-o-y (85,028 vs 86,850) due to equipment repairs incl. major overhaul of depletion furnace No.1 at Nadezhda Metallurgical Plant (Feb-Apr) and high base. Copper total incl. Zabaykalsky (Bystrinsky) Division: Q2 +6% q-o-q, H1 -5% y-o-y (203,073 vs 213,189). Bystrinsky copper in concentrate: Q2 -4% q-o-q (scheduled maintenance on autogenous grinding mill), H1 +2% y-o-y (36,332 vs 35,686). PGM: H1 Pd 1,199 koz (-14%), Pt 281 koz (-16%). Note: company renamed Trans-Baikal Division to Zabaykalsky Division in 2026 reports. Q1 2026 figures cross-checked vs official 1Q2026 PDF (nickel ~42 kt, copper 99 kt incl. Bystrinsky, own-feed copper 80 kt, Bystrinsky 18.5 kt).",
+  "sources": [
+    "https://nornik-upload.storage.yandexcloud.net/iblock/9f2/9f281df9f30d854f9ff98e521e839eae/nornickel_production_results_1n_2026_eng_full.pdf",
+    "https://nornickel.com/news-and-media/press-releases-and-news/nornickel-announces-production-results-for-1h2026/",
+    "https://nornik-upload.storage.yandexcloud.net/iblock/731/731b54e29b5527e171a0270b83ea069d/nornickel_production_results_1q_2026_eng_full.pdf",
+    "https://www.akm.ru/eng/news/norilsk-nickel-reduced-nickel-production-by-2-in-the-first-half-of-the-year/"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "company": "Liontown",
+  "published": true,
+  "data": {
+    "conc_dmt_q2": 103111,
+    "conc_dmt_fy26": 391992,
+    "sold_dmt_q2": 108489
+  },
+  "fy27_guidance": "FY27 产量指引 390-440 kdmt SC6 锂辉石精矿（含计划检修停产与扩建 tie-in 停机）；单位运营成本(FOB) A$1,050-1,250/dmt sold；总资本开支 A$320-370m（不含 FID 后扩建资本，FID 预计 2026年9月/Q1FY27末，届时更新指引）",
+  "notes": "FY26 Q4（日历年2026Q2，截至2026-06-30）季报于2026-07-28(澳时)发布。Q4产量103,111 dmt（平均品位5.0% Li2O，环比+7% vs Q3的96,367 dmt）；Q4销量108,489 dmt（五船，实现价US$1,880/dmt SC6e）；FY26全年产量391,992 dmt、销量381,997 dmt，落在FY26指引365-450 kdmt区间内（指引全部达标）。回收率：Q4锂回收率平均约63%（全年最强，Q3为61%），给矿为55%地下矿+45%露采矿；给纯净地下矿时回收率稳定约70%（2026年4月大部分时段）。地下进展：Q4地下采矿356 kt（品位1.4% Li2O），地下开拓3,316米创纪录（环比+35%）；1.5 Mtpa采速将维持至Q1 FY27，Q2 FY27起产量再抬升，FY27底达到2.8 Mtpa采速目标（on track）。财务：季末现金A$561m（净现金流+A$137m），库存21,384 dmt；Q4单位成本A$995/dmt sold(FOB)，AISC A$1,314。扩建：Kathleen Valley扩建早工推进，FID按计划Q1 FY27末（2026年9月）。",
+  "sources": [
+    "https://www.liontown.com/latest-news/june-2026-quarterly-results/",
+    "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115202-6A1335928"
+  ]
+}

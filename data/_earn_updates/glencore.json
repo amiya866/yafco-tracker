@@ -1,0 +1,39 @@
+{
+  "company": "Glencore",
+  "published": true,
+  "data": {
+    "zinc": {
+      "2026Q1": 176.9,
+      "2026Q2": 188.7,
+      "H1": 365.6,
+      "kazzinc_q1": 33.9,
+      "kazzinc_q2": 53.7,
+      "mount_isa_q1": 46.0,
+      "mount_isa_q2": 39.1,
+      "mcarthur_q1": 62.9,
+      "mcarthur_q2": 70.0,
+      "kidd_q1": 11.9,
+      "kidd_q2": 8.3,
+      "antamina_q1": 22.2,
+      "antamina_q2": 17.6
+    },
+    "copper": {
+      "2026Q1": 199.6,
+      "2026Q2": 197.4,
+      "H1": 397.0
+    },
+    "nickel": {
+      "2026Q1": 17.2,
+      "2026Q2": 18.6,
+      "H1": 35.8,
+      "ino_q2": 10.4,
+      "murrin_q2": 8.2
+    }
+  },
+  "guidance": "FY2026 指引：铜 810-870kt、锌 700-740kt、镍 70-80kt 均维持不变（与 2025年12月资本市场日一致，Q1 报告亦未调整）。注意：Kidd 矿出售于 2026-06-01 完成，指引未扣除其 6-12 月约 20kt 锌、约 11kt 铜的损失，即隐含同口径上调；锌指引未受 2026年5月 Kazzinc Ust-Kamenogorsk 锌粉收集装置事故实质影响。煤炭微调：炼焦煤 30-34Mt 下调至 30-32Mt（中值-1Mt），动力煤 95-100Mt 上调至 96-101Mt（中值+1Mt）。H1/H2 权重：铜 47%/53%、锌 51%/49%、镍 48%/52%。",
+  "notes": "来源：Glencore 官方《Half-Year Production Report 2026》PDF（2026-07-29 伦敦时间 07:00 发布），口径为 own sourced production（自有资源产量，kt）。锌 H1 365.6kt 同比 -21%（Lady Loretta 2025 年底寿命终结 -51kt、Antamina 锌品位下降 -39.2kt、Kidd 出售）；分资产锌（own sourced，kt，Q1/Q2 2026，已从 PDF 表格图像逐行核对，五资产合计精确勾稽集团数 176.9/188.7）：Kazzinc 33.9/53.7（H1 87.6，含锌金属 20.2/23.2 + 锌精矿 13.7/30.5 两行）、Mount Isa 46.0/39.1（H1 85.1）、McArthur River 62.9/70.0（H1 132.9）、Kidd 11.9/8.3（H1 20.2，6/1 已出售）、Antamina 22.2/17.6（H1 39.8，33.75% 权益，计入铜部门但加回集团锌总量）。锌部门 H1 325.8 + Antamina 39.8 = 集团 365.6。铜 H1 397.0kt 同比 +15%（非洲铜 +55kt、Antamina +27.7kt，Mt Isa 铜矿 2025年7月关停 -20.4kt）。镍 H1 35.8kt 同比 -2%：INO H1 19.7kt（Q1 9.3/Q2 10.4，Sudbury 炉况影响消退）、Murrin Murrin H1 16.1kt（Q1 7.9/Q2 8.2）；Koniambo 仍停产保养。另：营销板块 H1 Adjusted EBIT 预期约 $3.3bn；H1 实现价铜 $12,704/t、锌 $3,284/t、镍 $17,718/t。正式半年报（财务数据）2026-08-05 发布。",
+  "sources": [
+    "https://www.glencore.com/.rest/api/v1/documents/static/e44bf57f-8768-4b27-8a33-39087d02d00a/GLEN_2026-H1ProductionReport.pdf",
+    "https://www.glencore.com/media-and-insights/news/half-year-production-report-2026"
+  ]
+}

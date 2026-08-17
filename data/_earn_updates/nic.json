@@ -1,0 +1,28 @@
+{
+  "company": "Nickel Industries",
+  "ticker": "ASX:NIC",
+  "report": "June 2026 Quarterly Activities Report",
+  "asx_release_date": "2026-07-29",
+  "published": true,
+  "data": {
+    "rkef_q2": 27864,
+    "rkef_q2_basis": "100% project basis, nickel metal tonnes (NIC holds 80% indirect interest; attributable approx 22,291t)",
+    "rkef_breakdown": {"HNI": 3944, "RNI": 4075, "ANI": 8735, "ONI": 11110},
+    "rkef_npi_production_tonnes": 245601,
+    "npi_grade_pct": 11.3,
+    "npi_contract_price_usd_per_t_ni": 14522,
+    "rkef_cash_cost_usd_per_t_ni": 12595,
+    "rkef_sales_tonnes_ni": 27961,
+    "hnc_mhp_q2": null,
+    "hnc_mhp_q2_note": "Q2 2026 report does NOT disclose HNC production; it discloses HNC sales of 17,824 tonnes of nickel in MHP (100% basis; NIC attributable 10% = 1,782t). Production figure not available.",
+    "hnc_mhp_sales_q2": 17824
+  },
+  "enc_status": "ENC HPAL (NIC 46%) integrated commissioning well advanced: first MHP produced 21 July 2026 from Hengjaya Mine limonite via 22km slurry pipeline; first of three autoclaves feeding ore; first nickel cathode expected mid-August 2026, then LME/SHFE cathode registration; nameplate >72,000t Ni pa. Also announced: 36% interest in CNE HPAL (28,357t Ni pa, via Sampala share swap) and 17.5% in TMI HPAL (38,640t Ni pa, US$169m), both expansions of ENC, commissioning expected mid-2027.",
+  "notes": "RKEF Q2 Ni production 27,864t down 8% qoq (Q1: 30,264t) due to ANI kiln relining maintenance and higher ore costs (HPM change); ANI/ONI rebound expected Q3, partially offset by HNI major overhaul of one RKEF line from end-June (4 months, ~50% capacity). NPI contract price US$14,522/t Ni up 10% qoq (Q1: US$13,201/t). Group Adjusted EBITDA US$120.5m. HNC production tonnage not disclosed this quarter (sales-only); do not substitute sales as production without flagging.",
+  "sources": [
+    "https://nickelindustries.com/carbon/assets/0007ea/000007/3095917.pdf",
+    "https://nickelindustries.com/carbon/assets/0007ea/000007/3095817.pdf",
+    "https://nickelindustries.com/investor-centre/asx-announcements/",
+    "https://asx.api.markitdigital.com/asx-research/1.0/companies/NIC/announcements?count=10"
+  ]
+}
