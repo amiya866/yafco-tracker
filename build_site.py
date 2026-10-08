@@ -22,6 +22,16 @@ from openpyxl import load_workbook
 
 BASE_DIR = Path(__file__).resolve().parent
 OUT_FILE = BASE_DIR / "data" / "data.js"
+EXCEL_DIR = BASE_DIR / "excel"
+
+
+def _excel(rel: str, legacy: str) -> Path:
+    """真库（原库）优先；便携模式（无 D:\\ 真库）回退 excel/ 相对副本。"""
+    legacy_p = Path(legacy)
+    if legacy_p.exists():
+        return legacy_p
+    rel_p = EXCEL_DIR / rel
+    return rel_p if rel_p.exists() else legacy_p
 
 BUILD_DATE = datetime.date.today()
 
@@ -365,12 +375,35 @@ SILICON_CALIBER_NOTES = [
 ]
 
 # ---------------------------------------------------------------------------
+# 铅 · 披露日历（铅锌伴生，与锌矿企披露基本同步）
+# ---------------------------------------------------------------------------
+LEAD_CALENDAR = [
+    {"date": "2026-07-20", "approx": False, "company": "South32", "event": "FY26 Q4（6 月季）产量报告（Cannington 铅银）"},
+    {"date": "2026-07-21", "approx": True, "company": "MMG", "event": "2026Q2 产量报告（Rosebery/Dugald River）"},
+    {"date": "2026-07-23", "approx": False, "company": "Teck", "event": "2026Q2 财报（Red Dog/Trail）"},
+    {"date": "2026-07-23", "approx": False, "company": "Newmont", "event": "2026Q2 财报（Peñasquito）"},
+    {"date": "2026-07-29", "approx": False, "company": "Glencore", "event": "2026 H1 产量报告（Kazzinc/McArthur/Mount Isa）"},
+    {"date": "2026-08-05", "approx": False, "company": "Nexa", "event": "2026Q2 财报"},
+    {"date": "2026-08-06", "approx": True, "company": "Korea Zinc", "event": "2026Q2 财报"},
+    {"date": "2026-08-07", "approx": True, "company": "Mitsui Mining", "event": "2027/3 期 Q1 财报"},
+    {"date": "2026-10-03", "approx": True, "company": "Vedanta", "event": "Q2FY27 产量公告"},
+]
+
+LEAD_CALIBER_NOTES = [
+    "铅精矿产量单位为万吨含铅量；精炼铅产量单位为万吨精炼铅。",
+    "海外铅精矿绝大多数为铅锌矿的伴生产品，铅口径=铅精矿含铅量，与锌库「锌精矿含锌量」同源但不同维度，两家各自独立建表。",
+    "铅的定价锚=再生铅定价（废电瓶→再生利润→产量），再生铅走 zhiji 指标（再生粗铅产量 a10017062 等），不建财报 sheet。",
+    "Nyrstar 不披露季度产量，精炼铅合计中不含 Nyrstar。",
+    "BHP Antamina 按 33.75% 权益、South32 权益口径、MMG/Teck 100% 矿山口径；横向比较注意权益 vs 合并。",
+]
+
+# ---------------------------------------------------------------------------
 # COMMODITIES 注册表：加新品种 = 加一个条目 + 一个抽取函数
 # ---------------------------------------------------------------------------
 COMMODITIES = {
     "tin": {
         "name": "锡",
-        "excel": r"D:\拷贝文件\E\永安\周报数据更新\进出口库存\海外主要公司产量.xlsx",
+        "excel": _excel("锡.xlsx", r"D:\拷贝文件\E\永安\锡\海外主要公司产量.xlsx"),
         "unit_mine": "吨（精矿含锡）",
         "unit_refined": "吨（精炼锡）",
         "extract": "extract_tin",
@@ -380,7 +413,7 @@ COMMODITIES = {
     },
     "zinc": {
         "name": "锌",
-        "excel": r"D:\拷贝文件\E\永安\锌\全球锌企季度产量梳理.xlsx",
+        "excel": _excel("锌.xlsx", r"D:\拷贝文件\E\永安\锌\全球锌企季度产量梳理.xlsx"),
         "unit_mine": "万金属吨",
         "unit_refined": "万吨精炼锌",
         "extract": "extract_zinc",
@@ -391,7 +424,7 @@ COMMODITIES = {
     },
     "aluminum": {
         "name": "铝",
-        "excel": r"D:\拷贝文件\E\永安\铝\全球铝企季度产量梳理.xlsx",
+        "excel": _excel("铝.xlsx", r"D:\拷贝文件\E\永安\铝\全球铝企季度产量梳理.xlsx"),
         "extract": "extract_aluminum",
         "calendar": ALUMINUM_CALENDAR,
         "caliber_notes": ALUMINUM_CALIBER_NOTES,
@@ -399,7 +432,7 @@ COMMODITIES = {
     },
     "nickel": {
         "name": "镍",
-        "excel": r"D:\拷贝文件\E\永安\镍\全球镍企季度产量梳理.xlsx",
+        "excel": _excel("镍.xlsx", r"D:\拷贝文件\E\永安\镍\全球镍企季度产量梳理.xlsx"),
         "extract": "extract_nickel",
         "calendar": NICKEL_CALENDAR,
         "caliber_notes": NICKEL_CALIBER_NOTES,
@@ -407,7 +440,7 @@ COMMODITIES = {
     },
     "copper": {
         "name": "铜",
-        "excel": r"D:\拷贝文件\E\永安\铜\全球铜企季度产量梳理.xlsx",
+        "excel": _excel("铜.xlsx", r"D:\拷贝文件\E\永安\铜\全球铜企季度产量梳理.xlsx"),
         "extract": "extract_copper",
         "calendar": COPPER_CALENDAR,
         "caliber_notes": COPPER_CALIBER_NOTES,
@@ -415,7 +448,7 @@ COMMODITIES = {
     },
     "lithium": {
         "name": "锂",
-        "excel": r"D:\拷贝文件\E\永安\锂\全球锂企季度产量梳理.xlsx",
+        "excel": _excel("锂.xlsx", r"D:\拷贝文件\E\永安\锂\全球锂企季度产量梳理.xlsx"),
         "extract": "extract_lithium",
         "calendar": LITHIUM_CALENDAR,
         "caliber_notes": LITHIUM_CALIBER_NOTES,
@@ -423,10 +456,18 @@ COMMODITIES = {
     },
     "silicon": {
         "name": "硅",
-        "excel": r"D:\拷贝文件\E\永安\硅产业\全球硅企季度产量梳理.xlsx",
+        "excel": _excel("硅.xlsx", r"D:\拷贝文件\E\永安\硅产业\全球硅企季度产量梳理.xlsx"),
         "extract": "extract_silicon",
         "calendar": SILICON_CALENDAR,
         "caliber_notes": SILICON_CALIBER_NOTES,
+        "default_view": "quarter",
+    },
+    "lead": {
+        "name": "铅",
+        "excel": _excel("铅.xlsx", r"D:\拷贝文件\E\永安\铅\全球铅企季度产量梳理.xlsx"),
+        "extract": "extract_lead",
+        "calendar": LEAD_CALENDAR,
+        "caliber_notes": LEAD_CALIBER_NOTES,
         "default_view": "quarter",
     },
 }
@@ -566,45 +607,63 @@ def section_stats(companies, quarters, title="矿山"):
 # ---------------------------------------------------------------------------
 # 锡抽取
 # ---------------------------------------------------------------------------
-def extract_tin(path):
-    wb = load_workbook(path, data_only=False)
-    s1 = wb["Sheet1"]
-
-    # --- Sheet1 矿表（行 2-8）：J=公司,K=国家,L~O=2021~2024,Q=2025Q1,R=2025Q2,
-    #     T=25指引,U=增产/减产原因,V=2025全年,W=2026Q1 ---
-    mine_annual = {}   # name -> {period: val}
-    mine_meta = {}     # name -> {country, guide, reason, note}
-    for r in range(2, 9):
-        name = txt(s1.cell(row=r, column=10).value)
+def _read_tin_std_sheet(ws, is_mine):
+    """读锡标准 26 列+扩展 sheet → company 列表。
+    列: 1公司 2国家 3口径 4-7 23Q1-4 8 23总计 9-12 24Q1-4 13 24总计
+       14-17 25Q1-4 18 25总计 19 25同比 20 26Q1 21 26Q1同比 22 26Q2 23 26Q2同比
+       24变化原因 25 FY2026/25指引 26备注 27 2021 28 2022 29数据性质(est 判定来源)"""
+    QCOLS = [(4, "2023Q1"), (5, "2023Q2"), (6, "2023Q3"), (7, "2023Q4"),
+             (9, "2024Q1"), (10, "2024Q2"), (11, "2024Q3"), (12, "2024Q4"),
+             (14, "2025Q1"), (15, "2025Q2"), (16, "2025Q3"), (17, "2025Q4"),
+             (20, "2026Q1"), (22, "2026Q2")]
+    YCOLS = [(27, "2021"), (28, "2022"), (8, "2023"), (13, "2024"), (18, "2025")]
+    companies = []
+    for r in range(2, ws.max_row + 1):
+        name = txt(ws.cell(row=r, column=1).value)
         if not name:
             continue
         data = {}
-        for i, year in enumerate(["2021", "2022", "2023", "2024"]):
-            v = num(s1.cell(row=r, column=12 + i).value)
+        for c, per in QCOLS:
+            v = num(ws.cell(row=r, column=c).value)
             if v is not None:
-                data[year] = v
-        v = num(s1.cell(row=r, column=22).value)   # V=2025全年
-        if v is not None:
-            data["2025"] = v
-        for col, q in ((17, "2025Q1"), (18, "2025Q2"), (23, "2026Q1")):  # Q,R,W
-            v = num(s1.cell(row=r, column=col).value)
+                data[per] = v
+        for c, yr in YCOLS:
+            v = num(ws.cell(row=r, column=c).value)
             if v is not None:
-                data[q] = v
-        mine_annual[name] = data
-        reason = txt(s1.cell(row=r, column=21).value)  # U
+                data[yr] = v
+        nature = txt(ws.cell(row=r, column=29).value) or ""
+        memo = txt(ws.cell(row=r, column=26).value)
+        est = bool(re.search(r"估算|推算|拟合|反推|相减", nature))
         note = None
-        if name == "兴业银锡":
+        if is_mine and name == "兴业银锡":
             note = "口径：矿产锡 = 锡金属(合格锡精矿含锡) + 锡次金属(低品位锡精粉)，并列相加、非包含"
-        mine_meta[name] = {
-            "country": txt(s1.cell(row=r, column=11).value),
-            "guide": txt(s1.cell(row=r, column=20).value),  # T=25指引
-            "reason": reason,
+        if not is_mine and name == "MSC":
+            note = "季报不披露吨数，仅年度"
+        companies.append({
+            "name": name,
+            "country": txt(ws.cell(row=r, column=2).value),
+            "data": data,
+            "yoy": compute_yoy(data),
+            "guide": txt(ws.cell(row=r, column=25).value),
+            "guide_label": "2025 全年指引",
+            "guide_progress_periods": ["2025"],
+            "reason": txt(ws.cell(row=r, column=24).value),
             "note": note,
-        }
+            "est": est,
+            "est_note": memo,
+        })
+    return companies
 
-    # --- 季度序列：各公司 sheet ---
-    quarterly = {n: {} for n in mine_annual}
-    # Alphamin：行12-33，A=季度，C=AISC(US$/t)，D=产量(吨)，H=销量(吨)
+
+def extract_tin(path):
+    wb = load_workbook(path, data_only=False)
+
+    # --- 标准 sheet（产量矩阵；原 Sheet1 年度块 + 季度补充 + Alphamin/MetalsX/Timah/MSC
+    #     产量已由 _unify_tin_20260818.py 汇总进 26 列 sheet）---
+    mine_companies = _read_tin_std_sheet(wb["锡矿·季度产量"], is_mine=True)
+    refined_companies = _read_tin_std_sheet(wb["精炼锡·季度产量"], is_mine=False)
+
+    # --- 成本序列（Alphamin / Metals X 公司单表保留作 costs 图源与 cost_compare）---
     ws = wb["Alphamin"]
     alphamin_cost = []
     for r in range(12, 34):
@@ -614,155 +673,17 @@ def extract_tin(path):
         prod = num(ws.cell(row=r, column=4).value)
         sale = num(ws.cell(row=r, column=8).value)
         aisc = num(ws.cell(row=r, column=3).value)
-        if prod is not None:
-            quarterly["Alphamin"][q] = prod
         alphamin_cost.append({"q": q, "aisc": aisc, "production": prod, "sales": sale})
-    # Metals X：行11起，A=季度，B=C1(A$/t)，C=AISC(A$/t)，E=产量(吨，100%口径)
-    # （按季度标签正则筛选，行数随新季追加变化，勿写死行范围）
-    import re as _re
     ws = wb["Metals X"]
     metalsx_cost = []
     for r in range(11, ws.max_row + 1):
         q = txt(ws.cell(row=r, column=1).value)
-        if not q or not _re.fullmatch(r"20\d{2}Q[1-4]", q):
+        if not q or not re.fullmatch(r"20\d{2}Q[1-4]", q):
             continue
-        prod = num(ws.cell(row=r, column=5).value)
         c1 = num(ws.cell(row=r, column=2).value)
         aisc = num(ws.cell(row=r, column=3).value)
-        if prod is not None:
-            quarterly["Metals X"][q] = prod
+        prod = num(ws.cell(row=r, column=5).value)
         metalsx_cost.append({"q": q, "c1": c1, "aisc": aisc, "production": prod})
-    # Timah：行2起，A=季度，D=锡矿产量，E=精炼锡产量，F=精炼锡销量
-    # （按季度标签正则筛选；表下方存在同一数据的静态副本块，季度标签重复即终止读取）
-    import re as _re
-    ws = wb["Timah"]
-    timah_refined_q = {}
-    _seen_q = set()
-    for r in range(2, ws.max_row + 1):
-        q = txt(ws.cell(row=r, column=1).value)
-        if not q or not _re.fullmatch(r"20\d{2}Q[1-4]", q):
-            continue
-        if q in _seen_q:
-            break
-        _seen_q.add(q)
-        ore = num(ws.cell(row=r, column=4).value)
-        ref = num(ws.cell(row=r, column=5).value)
-        if ore is not None:
-            quarterly["PT Timah"][q] = ore
-        if ref is not None:
-            timah_refined_q[q] = ref
-    # 明苏尔季度数据已改由「季度补充」sheet 读取（见下），不再使用脚本常量。
-
-    # --- 季度补充 sheet（行 2-8）：A=公司,B=指标,C=单位,D=数据性质,E=备注,
-    #     F 列起 2023Q1..2026Q2 共 14 个季度列（None=无数据）。
-    #     明苏尔矿产锡/精炼锡季度、云锡/华锡/兴业季度的唯一来源；同名期间覆盖 Sheet1 值。---
-    SUPP_MAP = {
-        ("云锡", "产品锡"): ("refined", "云南锡业"),
-        ("云锡", "锡矿(拟合)"): ("mine", "云南锡业"),
-        ("华锡有色", "锡精矿(金属吨)"): ("mine", "华锡有色"),
-        ("华锡有色", "锡锭"): ("refined", "华锡有色"),
-        ("兴业银锡", "矿产锡"): ("mine", "兴业银锡"),
-        ("明苏尔", "矿产锡(SR+B2)"): ("mine", "明苏尔"),
-        ("明苏尔", "精炼锡(Pisco)"): ("refined", "明苏尔"),
-    }
-    supp_data = {"mine": {}, "refined": {}}   # section -> 公司 -> {季度: 值}
-    supp_meta = {}                            # (section, 公司) -> {est, est_note}
-    ws = wb["季度补充"]
-    supp_quarters = [txt(ws.cell(row=1, column=c).value) for c in range(6, 20)]
-    for r in range(2, 9):
-        comp = txt(ws.cell(row=r, column=1).value)
-        ind = txt(ws.cell(row=r, column=2).value)
-        target = SUPP_MAP.get((comp, ind))
-        if not target:
-            continue
-        nature = txt(ws.cell(row=r, column=4).value) or ""
-        memo = txt(ws.cell(row=r, column=5).value)
-        sec, cname = target
-        dd = supp_data[sec].setdefault(cname, {})
-        for i, q in enumerate(supp_quarters):
-            if not q:
-                continue
-            v = num(ws.cell(row=r, column=6 + i).value)
-            if v is not None:
-                dd[q] = v
-        # 数据性质含估算/推算/拟合/反推/累计相减 -> 前端打 † 标记并悬停显示备注原文
-        est = bool(re.search(r"估算|推算|拟合|反推|相减", nature))
-        meta = supp_meta.setdefault((sec, cname), {"est": False, "est_note": None})
-        meta["est"] = meta["est"] or est
-        meta["est_note"] = (meta["est_note"] + "；" + memo) if meta["est_note"] and memo else (memo or meta["est_note"])
-
-    # 合并矿表公司（Sheet1 年度/季度 <- 公司 sheet 季度 <- 季度补充表，后者覆盖）
-    mine_companies = []
-    for name, annual in mine_annual.items():
-        data = dict(annual)
-        data.update(quarterly.get(name, {}))
-        data.update(supp_data["mine"].get(name, {}))
-        meta = supp_meta.get(("mine", name), {})
-        mine_companies.append({
-            "name": name,
-            "country": mine_meta[name]["country"],
-            "data": data,
-            "yoy": compute_yoy(data),
-            "guide": mine_meta[name]["guide"],
-            "guide_label": "2025 全年指引",
-            "guide_progress_periods": ["2025"],
-            "reason": mine_meta[name]["reason"],
-            "note": mine_meta[name]["note"],
-            "est": meta.get("est", False),
-            "est_note": meta.get("est_note"),
-        })
-
-    # --- Sheet1 锭表（行 15-20）：J=公司,K=国家,L~O=2021~2024,Q=25指引,
-    #     R/S=原因,T=2025全年,U=2026Q1 ---
-    refined_companies = []
-    for r in range(15, 21):
-        name = txt(s1.cell(row=r, column=10).value)
-        if not name:
-            continue
-        data = {}
-        for i, year in enumerate(["2021", "2022", "2023", "2024"]):
-            v = num(s1.cell(row=r, column=12 + i).value)
-            if v is not None:
-                data[year] = v
-        v = num(s1.cell(row=r, column=20).value)  # T=2025全年
-        if v is not None:
-            data["2025"] = v
-        v = num(s1.cell(row=r, column=21).value)  # U=2026Q1
-        if v is not None:
-            data["2026Q1"] = v
-        # Timah 精炼季度列（Timah sheet E 列）
-        if name == "PT Timah":
-            data.update(timah_refined_q)
-        # MSC：季度标签 20XXQ4 行的 H 列为年度实际产量（季报不披露吨数）
-        if name == "MSC":
-            ws = wb["马来西亚MSC（锭）"]
-            for rr in range(1, ws.max_row + 1):
-                a = txt(ws.cell(row=rr, column=1).value)
-                h = num(ws.cell(row=rr, column=8).value)
-                if a and h is not None and a.endswith("Q4"):
-                    data[a[:4]] = h
-        # Pisco（明苏尔）：不再用常量回填。Pisco 精炼锡季度/年度唯一来源为
-        # 「季度补充」表的明苏尔/精炼锡(Pisco) 序列，并入「明苏尔」行展示，本行保留但去重。
-        note = "季报不披露吨数，仅年度" if name == "MSC" else None
-        if name.startswith("Pisco"):
-            note = "Pisco 冶炼厂精炼锡产量并入「明苏尔」行（唯一来源：季度补充表），本行不再重复展示数据"
-            data = {}
-        data.update(supp_data["refined"].get(name, {}))
-        meta = supp_meta.get(("refined", name), {})
-        reason = txt(s1.cell(row=r, column=18).value) or txt(s1.cell(row=r, column=19).value)
-        refined_companies.append({
-            "name": name,
-            "country": txt(s1.cell(row=r, column=11).value),
-            "data": data,
-            "yoy": compute_yoy(data),
-            "guide": txt(s1.cell(row=r, column=17).value),  # Q=25指引
-            "guide_label": "2025 全年指引",
-            "guide_progress_periods": ["2025"],
-            "reason": reason,
-            "note": note,
-            "est": meta.get("est", False),
-            "est_note": meta.get("est_note"),
-        })
 
     # --- 公司卡片成本行：Alphamin/Metals X 从 Excel 成本序列取最新值（26Q2=19,043 为指引，
     #     实际锚定 26Q1=17,968）；明苏尔/Timah/国内为文件头常量 ---
@@ -871,7 +792,6 @@ def extract_tin(path):
         "_fitted": n_fit,
     }
 
-
 # ---------------------------------------------------------------------------
 # 锌抽取
 # ---------------------------------------------------------------------------
@@ -883,6 +803,32 @@ def _zinc_period_map():
             m[f"{y}Q{q}"] = f"20{y}Q{q}"
         m[f"{y}总计"] = f"20{y}"
     return m
+
+
+def _backfill_total(total, companies, periods):
+    """总计行缺值期间按公司行合计回填。
+    锌表总计行 23Q1-25总计 为 Excel SUM 公式且无缓存值，data_only=False 读不到，
+    导致前端合计线只剩手填的 26Q1/Q2；口径本就是「表内公司合计」，直接回填。
+    年度值在四个季度合计齐全时按季度求和，避免「公司有季度值但年度列空」
+    造成的年度口径小于季度之和（两类视图自相矛盾）。"""
+    periods = list(periods)
+    for p in periods:
+        if "Q" in p and p not in total["data"]:
+            vals = [c["data"].get(p) for c in companies]
+            vals = [v for v in vals if v is not None]
+            if vals:
+                total["data"][p] = round(sum(vals), 4)
+    for p in periods:
+        if "Q" in p or p in total["data"]:
+            continue
+        qs = [f"{p}Q{i}" for i in range(1, 5)]
+        if all(q in total["data"] for q in qs):
+            total["data"][p] = round(sum(total["data"][q] for q in qs), 4)
+        else:
+            vals = [c["data"].get(p) for c in companies]
+            vals = [v for v in vals if v is not None]
+            if vals:
+                total["data"][p] = round(sum(vals), 4)
 
 
 def extract_zinc(path):
@@ -943,7 +889,7 @@ def extract_zinc(path):
         ws, range(2, mine_total_r), col_name=1, col_country=2, col_project=3, col_reason=24,
         data_cols=mine_cols,
         yoy_cols={"2025": 19, "2026Q1": 21, "2026Q2": 23},
-        col_guide=25, col_cost=26,
+        col_guide=25, col_cost=27,  # 2026-08-18 版式统一：26=备注(新增)，27=成本，28-31=资本开支
     )
     for c in mine_companies:
         if c["name"] == "Nyrstar":
@@ -959,40 +905,51 @@ def extract_zinc(path):
         v = num(ws.cell(row=mine_total_r, column=col).value)
         if v is not None:
             provided[p] = v
+    mine_formula_periods = []
     for col, p in mine_cols.items():
-        v = num(ws.cell(row=mine_total_r, column=col).value)
+        raw = ws.cell(row=mine_total_r, column=col).value
+        v = num(raw)
         if v is not None:
             total_row["data"][p] = v
+        elif isinstance(raw, str) and raw.startswith("="):
+            mine_formula_periods.append(p)
+    _backfill_total(total_row, mine_companies, mine_formula_periods)
     total_row["yoy"] = compute_yoy(total_row["data"], provided)
 
     # --- 锌锭冶炼企业·季度产量：公司=行2 至总计行-1（动态定位） ---
     ws2 = wb["锌锭冶炼企业·季度产量"]
     ref_total_r = find_total_row(ws2, scan_cols=(1, 2))
     ref_cols = {}
-    for col in range(3, 23):  # C..V
+    for col in range(4, 24):  # D..W（2026-08-18 版式统一：A=公司,B=国家,C=项目/口径,D 起为数据区）
         h = txt(ws2.cell(row=1, column=col).value)
         if h in pmap:
             ref_cols[col] = pmap[h]
     ref_companies = read_rows(
-        ws2, range(2, ref_total_r), col_name=2, col_country=1, col_project=None, col_reason=24,
+        ws2, range(2, ref_total_r), col_name=1, col_country=2, col_project=3, col_reason=24,
         data_cols=ref_cols,
-        yoy_cols={"2024": 13, "2025": 19, "2026Q1": 21, "2026Q2": 23},
+        yoy_cols={"2025": 19, "2026Q1": 21, "2026Q2": 23},  # 「24累计同比」列已随版式统一移除，2024 同比由 compute_yoy 自算
+        col_guide=25,
     )
     n_fit += fit_missing_quarters(ref_companies)
     ref_total = {"data": {}, "yoy": {}}
     provided = {}
-    for p, col in (("2024", 13), ("2025", 19), ("2026Q1", 21), ("2026Q2", 23)):
+    for p, col in (("2025", 19), ("2026Q1", 21), ("2026Q2", 23)):
         v = num(ws2.cell(row=ref_total_r, column=col).value)
         if v is not None:
             provided[p] = v
+    ref_formula_periods = []
     for col, p in ref_cols.items():
-        v = num(ws2.cell(row=ref_total_r, column=col).value)
+        raw = ws2.cell(row=ref_total_r, column=col).value
+        v = num(raw)
         if v is not None:
             ref_total["data"][p] = v
+        elif isinstance(raw, str) and raw.startswith("="):
+            ref_formula_periods.append(p)
+    _backfill_total(ref_total, ref_companies, ref_formula_periods)
     ref_total["yoy"] = compute_yoy(ref_total["data"], provided)
 
-    # --- 锌 C1 成本曲线：Z 列「成本（$/t）」文本解析，$/lb 按 1$/lb=2204.62$/t 换算；
-    #     Z 列为空时回退解析 FY2026 指引文本中的 'C1 $x-y/lb'（如 Kipushi）；原文保留 ---
+    # --- 锌 C1 成本曲线：成本列「成本（$/t）」文本解析，$/lb 按 1$/lb=2204.62$/t 换算；
+    #     成本列为空时回退解析 FY2026 指引文本中的 'C1 $x-y/lb'（如 Kipushi）；原文保留 ---
     LB_TO_T = 2204.62
     curve_items = []
     for c in mine_companies:
@@ -1021,7 +978,7 @@ def extract_zinc(path):
         label = c["name"] + ("·" + c["project"] if c["project"] else "")
         curve_items.append({
             "name": label, "lo": round(lo), "hi": round(hi), "mid": round((lo + hi) / 2),
-            "raw": raw, "note": src_note or "Z 列成本指引", "est": False,
+            "raw": raw, "note": src_note or "成本列指引", "est": False,
         })
     curve_items.sort(key=lambda x: x["mid"])
     cost_curve = {
@@ -1800,6 +1757,49 @@ def extract_lithium(path):
     }
 
 
+# ---------------------------------------------------------------------------
+# 铅抽取（sheet 结构与铜/锂同构，复用 _read_alu_sheet；两板块：铅精矿=万吨含铅量，精炼铅=万吨）
+# ---------------------------------------------------------------------------
+def extract_lead(path):
+    wb = load_workbook(path, data_only=False)
+    sheet_specs = [
+        ("mine", "铅精矿·季度产量", "铅精矿产量（含铅量）", "万吨"),
+        ("refined", "精炼铅·季度产量", "精炼铅产量", "万吨"),
+    ]
+    sections = []
+    first_companies = first_quarters = None
+    n_fit_total = 0
+    for sec_key, sheet_name, title, unit in sheet_specs:
+        companies, total, quarters, years, n_fit = _read_alu_sheet(wb[sheet_name], capture_pending=True)
+        n_fit_total += n_fit
+        if first_companies is None:
+            first_companies, first_quarters = companies, quarters
+        sections.append({
+            "key": sec_key,
+            "title": title, "unit": unit,
+            "quarters": quarters, "years": years,
+            "companies": companies, "total": total,
+        })
+    # 更新日志：A=日期,B=更新内容,C=数据来源
+    ws = wb["更新日志"]
+    changelog = []
+    for r in range(2, ws.max_row + 1):
+        d = txt(ws.cell(row=r, column=1).value)
+        content = txt(ws.cell(row=r, column=2).value)
+        if not d and not content:
+            continue
+        changelog.append({"date": d, "content": content, "source": txt(ws.cell(row=r, column=3).value)})
+    return {
+        "sections": sections,
+        "costs": None,
+        "capex": None,
+        "changelog": changelog,
+        "overview": section_stats(first_companies, first_quarters, "铅精矿"),
+        "last_update": max((c["date"] or "") for c in changelog) if changelog else None,
+        "_fitted": n_fit_total,
+    }
+
+
 def attach_event_flags(entry, news):
     """把 news.json 中带 affects 的条目（事故/停产等产量事件）挂到对应位置：
     company=具体公司 → 公司卡片 ⚠ 行 + 指引表备注；company="*" → 品种级事件（entry['commodity_events']，
@@ -1958,8 +1958,8 @@ def main():
     dugald = next((c for c in zinc_sec_mine["companies"] if c["project"] == "Dugald River"), None)
     checks.append(("锌 Dugald River 26Q2 = 4.61", dugald["data"].get("2026Q2") if dugald else None, 4.61))
     # 2026-07-29 起锌矿表新增16家公司、总计行改为全公司行求和，26Q1 总计口径随之变化
-    # 2026-07-30 Glencore 三矿山改 Zinc in concentrates 口径（Kazzinc Q1 3.39→1.78、McArthur 6.29→6.8、Mount Isa 4.6→6.75），总计 142.2653→143.3153
-    checks.append(("锌矿总计行 26Q1 = 143.3153", zinc_sec_mine["total"]["data"].get("2026Q1"), 143.3153))
+    # 2026-08-23 Nexa 2Q26 入库+新增 El Porvenir/Atacocha/Aripuanã 三行（EDGAR 6-K），总计 143.3153→145.8053
+    checks.append(("锌矿总计行 26Q1 = 145.8053", zinc_sec_mine["total"]["data"].get("2026Q1"), 145.8053))
     zijin = next((c for c in zinc_sec_mine["companies"] if c["name"] == "紫金矿业"), None)
     checks.append(("锌 紫金矿业 25总计 = 35.7453", zijin["data"].get("2025") if zijin else None, 35.7453))
     fres = next((c for c in zinc_sec_mine["companies"] if c["name"] == "Fresnillo"), None)
@@ -2033,6 +2033,11 @@ def main():
     checks.append(("锂 盛新 25Q2 带 est_q 拟合标记", 1 if shengxin.get("est_q", {}).get("2025Q2") else 0, 1))
     tianqi = next(c for c in li_sm["companies"] if c["name"] == "天齐锂业")
     checks.append(("锂 天齐冶炼 25 总计 = 87900", tianqi["data"].get("2025"), 87900))
+    # 铅接入核对（2026-08-17 建库骨架，产量数据待联网核查填充 → 结构校验）
+    pb = next(c for c in commodities if c["key"] == "lead")
+    pb_mine, pb_ref = pb["sections"]
+    checks.append(("铅 铅精矿公司数 = 25", len(pb_mine["companies"]), 25))
+    checks.append(("铅 精炼铅公司数 = 12", len(pb_ref["companies"]), 12))
     print("[build] 抽查核对：")
     ok = True
     for label, got, want in checks:
@@ -2040,6 +2045,8 @@ def main():
         ok = ok and good
         print(f"  {'PASS' if good else 'FAIL'}  {label}（实际={got}）")
     print(f"[build] {'全部核对通过' if ok else '存在核对失败，请检查！'}")
+    if not ok:
+        raise SystemExit("[build] 抽查核对失败，已阻止生成结果进入部署流程")
 
 
 if __name__ == "__main__":
