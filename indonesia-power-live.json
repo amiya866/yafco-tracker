@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "builtAt": "2026-11-11T15:58:48",
+    "sources": {
+      "npi": "ok",
+      "mhp": "ok",
+      "matte": "ok",
+      "aluminum_output": "ok",
+      "alumina_output": "ok",
+      "lme_nickel": "ok",
+      "lme_aluminum": "ok",
+      "npi_price": "ok",
+      "lme_nickel_stock": "ok",
+      "power": "ok"
+    },
+    "latestMetricDate": "2026-11-11"
+  },
+  "metrics": {
+    "npi": {
+      "label": "印尼中高镍生铁产量",
+      "date": "2026-09-30",
+      "value": 14.46,
+      "unit": "万金属吨",
+      "previous": 14.61,
+      "source": "知几 API",
+      "indicator": "ID01002123",
+      "url": "https://zhiji-ai.xyz/"
+    },
+    "mhp": {
+      "label": "印尼 MHP 产量",
+      "date": "2026-10-31",
+      "value": 3.63,
+      "unit": "万金属吨",
+      "previous": 3.69,
+      "source": "知几 API",
+      "indicator": "ID01525680",
+      "url": "https://zhiji-ai.xyz/"
+    },
+    "matte": {
+      "label": "印尼高冰镍产量",
+      "date": "2026-10-31",
+      "value": 1.7,
+      "unit": "万金属吨",
+      "previous": 2.12,
+      "source": "知几 API",
+      "indicator": "ID01972383",
+      "url": "https://zhiji-ai.xyz/"
+    },
+    "aluminum_output": {
+      "label": "印尼电解铝产量",
+      "date": "2026-10-31",
+      "value": 174.55,
+      "unit": "千吨",
+      "previous": 158.22,
+      "source": "知几 API",
+      "indicator": "a12817937",
+      "url": "https://zhiji-ai.xyz/"
+    },
+    "alumina_output": {
+      "label": "印尼氧化铝产量",
+      "date": "2026-10-31",
+      "value": 496.41,
+      "unit": "千吨",
+      "previous": 480.29,
+      "source": "知几 API",
+      "indicator": "a12751079",
+      "url": "https://zhiji-ai.xyz/"
+    },
+    "lme_nickel": {
+      "label": "LME 镍 3M",
+      "date": "2026-11-10",
+      "value": 16075.0,
+      "unit": "美元/吨",
+      "previous": 16400.0,
+      "source": "知几 API",
+      "indicator": "FU00014810",
+      "url": "https://zhiji-ai.xyz/"
+    },
+    "lme_aluminum": {
+      "label": "LME 铝 3M",
+      "date": "2026-11-10",
+      "value": 3010.5,
+      "unit": "美元/吨",
+      "previous": 3066.5,
+      "source": "知几 API",
+      "indicator": "FU00080250",
+      "url": "https://zhiji-ai.xyz/"
+    },
+    "npi_price": {
+      "label": "高镍生铁到厂价",
+      "date": "2026-11-11",
+      "value": 1050.0,
+      "unit": "元/镍点",
+      "previous": 1050.0,
+      "source": "知几 API",
+      "indicator": "ID00188192",
+      "url": "https://zhiji-ai.xyz/"
+    },
+    "lme_nickel_stock": {
+      "label": "LME 镍库存",
+      "date": "2026-11-10",
+      "value": 271662.0,
+      "unit": "吨",
+      "previous": 271662.0,
+      "source": "知几 API",
+      "indicator": "FU00014815",
+      "url": "https://zhiji-ai.xyz/"
+    }
+  },
+  "power": {
+    "release": "2026-07",
+    "operating_gw": 19.644,
+    "nickel_gw": 14.062,
+    "aluminum_gw": 1.995,
+    "construction_gw": 4.77,
+    "early_pipeline_gw": 10.28,
+    "shelved_gw": 1.35,
+    "nickel_aluminum_share": 81.7399714925677,
+    "source": "GEM Global Coal Plant Tracker · Indonesia captive",
+    "url": "https://docs.google.com/spreadsheets/d/1xnFBS4W6MRF0qmTnn3SyacvTaYlkUKIXTJdGhX0lZpo/edit"
+  }
+}
