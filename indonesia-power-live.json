@@ -1,16 +1,16 @@
 {
   "meta": {
-    "builtAt": "2026-11-11T16:09:07",
+    "builtAt": "2026-11-14T16:10:22",
     "sources": {
       "npi": "ok",
       "mhp": "ok",
       "matte": "ok",
       "aluminum_output": "ok",
       "alumina_output": "ok",
-      "lme_nickel": "ok",
-      "lme_aluminum": "ok",
-      "npi_price": "ok",
-      "lme_nickel_stock": "ok",
+      "lme_nickel": "cached: FU00014810 无数据: 触发限流: 超过 30 次/分",
+      "lme_aluminum": "cached: FU00080250 无数据: 触发限流: 超过 30 次/分",
+      "npi_price": "cached: ID00188192 无数据: 触发限流: 超过 30 次/分",
+      "lme_nickel_stock": "cached: FU00014815 无数据: 触发限流: 超过 30 次/分",
       "power": "ok"
     },
     "latestMetricDate": "2026-11-11"
@@ -18,10 +18,10 @@
   "metrics": {
     "npi": {
       "label": "印尼中高镍生铁产量",
-      "date": "2026-09-30",
-      "value": 14.46,
+      "date": "2026-10-31",
+      "value": 15.19,
       "unit": "万金属吨",
-      "previous": 14.61,
+      "previous": 14.46,
       "source": "知几 API",
       "indicator": "ID01002123",
       "url": "https://zhiji-ai.xyz/"
