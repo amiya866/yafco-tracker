@@ -1,6 +1,6 @@
 {
   "meta": {
-    "builtAt": "2026-11-15T17:02:02",
+    "builtAt": "2026-11-18T08:35:38",
     "sources": {
       "npi": "ok",
       "mhp": "ok",
@@ -11,9 +11,9 @@
       "lme_aluminum": "ok",
       "npi_price": "ok",
       "lme_nickel_stock": "ok",
-      "power": "ok"
+      "power": "cached: GEM 下载失败: curl rc=35: curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\n | curl rc=28: curl: (28) Failed to connect to docs.google.com:443 after 21310 ms: Could not connect to server\r\n"
     },
-    "latestMetricDate": "2026-11-13"
+    "latestMetricDate": "2026-11-17"
   },
   "metrics": {
     "npi": {
@@ -68,27 +68,27 @@
     },
     "lme_nickel": {
       "label": "LME 镍 3M",
-      "date": "2026-11-13",
-      "value": 16230.0,
+      "date": "2026-11-16",
+      "value": 16000.0,
       "unit": "美元/吨",
-      "previous": 16215.0,
+      "previous": 16230.0,
       "source": "知几 API",
       "indicator": "FU00014810",
       "url": "https://zhiji-ai.xyz/"
     },
     "lme_aluminum": {
       "label": "LME 铝 3M",
-      "date": "2026-11-12",
-      "value": 3030.5,
+      "date": "2026-11-16",
+      "value": 3004.5,
       "unit": "美元/吨",
-      "previous": 3068.5,
+      "previous": 3010.0,
       "source": "知几 API",
       "indicator": "FU00080250",
       "url": "https://zhiji-ai.xyz/"
     },
     "npi_price": {
       "label": "高镍生铁到厂价",
-      "date": "2026-11-13",
+      "date": "2026-11-17",
       "value": 1050.0,
       "unit": "元/镍点",
       "previous": 1050.0,
@@ -98,10 +98,10 @@
     },
     "lme_nickel_stock": {
       "label": "LME 镍库存",
-      "date": "2026-11-13",
-      "value": 272724.0,
+      "date": "2026-11-17",
+      "value": 274140.0,
       "unit": "吨",
-      "previous": 272526.0,
+      "previous": 272682.0,
       "source": "知几 API",
       "indicator": "FU00014815",
       "url": "https://zhiji-ai.xyz/"
