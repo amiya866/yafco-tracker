@@ -1,6 +1,6 @@
 {
   "meta": {
-    "builtAt": "2026-11-22T13:02:22",
+    "builtAt": "2026-11-23T08:02:39",
     "sources": {
       "npi": "ok",
       "mhp": "ok",
@@ -11,7 +11,7 @@
       "lme_aluminum": "ok",
       "npi_price": "ok",
       "lme_nickel_stock": "ok",
-      "power": "cached: GEM 下载失败: curl rc=7: curl: (7) Failed to connect to docs.google.com:443 over proxy 127.0.0.1 after 0 ms: Could not connect to server\r\n | curl rc=28: curl: (28) Failed to connect to docs.google.com:443 after 21287 ms: Could not connect to server\r\n"
+      "power": "cached: GEM 下载失败: curl rc=35: curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\n | curl rc=28: curl: (28) Failed to connect to docs.google.com:443 after 21965 ms: Could not connect to server\r\n"
     },
     "latestMetricDate": "2026-11-20"
   },
